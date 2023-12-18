@@ -1110,7 +1110,7 @@ menu() {
         delete_tls_key_and_crt
         ;;
     17)
-        acme
+        ssl_judge_and_install
         ;;
     18)
         exit 0
