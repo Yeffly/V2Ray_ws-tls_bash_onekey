@@ -1110,6 +1110,7 @@ menu() {
         delete_tls_key_and_crt
         ;;
     17)
+        domain_check
         acme
         ;;
     18)
