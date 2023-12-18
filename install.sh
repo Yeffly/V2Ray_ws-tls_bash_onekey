@@ -2,11 +2,8 @@
 
 #====================================================
 #	System Request:Debian 9+/Ubuntu 18.04+/Centos 7+
-#	Author:	Yeffly
 #	Dscription: V2ray ws+tls onekey Management
 #	Version: 1.0
-#	email:admin@Yeffly.com
-#	Official document: www.v2ray.com
 #====================================================
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
