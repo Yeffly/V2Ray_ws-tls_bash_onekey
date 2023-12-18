@@ -433,7 +433,7 @@ ssl_install() {
     fi
     judge "安装 SSL 证书生成脚本依赖"
 
-    curl https://get.acme.sh | sh
+    curl https://get.acme.sh | sh -s email=my@example.com
     judge "安装 SSL 证书生成脚本"
 }
 
