@@ -1036,8 +1036,7 @@ menu() {
     echo -e "${Green}14.${Font} 卸载 V2Ray"
     echo -e "${Green}15.${Font} 更新 证书crontab计划任务"
     echo -e "${Green}16.${Font} 清空 证书遗留文件"
-    echo -e "${Green}17.${Font} 安装 acme"
-    echo -e "${Green}18.${Font} 退出 \n"
+    echo -e "${Green}17.${Font} 退出 \n"
 
 
     read -rp "请输入数字：" menu_num
@@ -1110,13 +1109,9 @@ menu() {
         delete_tls_key_and_crt
         ;;
     17)
-        domain_check
-        acme
-        ;;
-    18)
         exit 0
         ;;
-    19)
+    18)
         read -rp "请输入伪装路径(注意！不需要加斜杠 eg:ray):" camouflage_path
         modify_camouflage_path
         start_process_systemd
